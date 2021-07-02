@@ -1193,7 +1193,7 @@ endif ()
 
 # Development package
 if (BUILD_STATIC)
-  export(APPEND TARGETS cryptopp-static FILE ${export_name}.cmake )
+  export(TARGETS cryptopp-static FILE ${export_name}.cmake )
   install(TARGETS cryptopp-static EXPORT ${export_name} DESTINATION ${CMAKE_INSTALL_LIBDIR})
 endif ()
 install(FILES ${cryptopp_HEADERS} DESTINATION include/cryptopp)
