@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.12)
+cmake_minimum_required(VERSION 3.5)
 # Please ensure your changes or patch meets minimum requirements.
 #   The minimum requirements are 2.8.6. It roughly equates to
 #   Ubuntu 14.05 LTS or Solaris 11.3. Please do not check in something
